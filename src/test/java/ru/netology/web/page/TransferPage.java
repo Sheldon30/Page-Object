@@ -10,7 +10,7 @@ import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 
 public class TransferPage {
-    private SelenideElement amount = $("[data-test-id='amount'] input");
+    private SelenideElement amount = $("[data-test-id='action-deposit'] input");
     private SelenideElement fromAmount = $("[data-test-id='from'] input");
     private SelenideElement transferHead = $(byText("Пополнение карты"));
 
